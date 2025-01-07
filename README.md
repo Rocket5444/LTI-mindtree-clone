@@ -1,5 +1,5 @@
 # SKXYWTF-react-demo
-https://www.ltimindtree.com/ -> working on this site, Creating components and stuffs
+http://localhost:5173// -> working on this site, Creating components and stuffs
 
 
 ## Installations and Run
