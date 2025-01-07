@@ -1,0 +1,10 @@
+.scroll-to-reveal {
+    opacity: 0;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+  
+.scroll-to-reveal.active {
+    opacity: 1;
+    transform: translateY(0) scale(1) translateX(0) translateZ(0);
+}

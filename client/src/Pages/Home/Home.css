@@ -1,0 +1,174 @@
+/* Value at Scale Section */
+.value-at-scale {
+	background-color: #002451;
+	color: #ffffff;
+	text-align: left;
+	margin-top: 4rem;
+	padding: 2.5rem;
+	font-family: poppins;
+}
+
+.value-at-scale .content-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.value-at-scale h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.value-at-scale .profile-quote {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.value-at-scale .profile-quote img {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	margin-right: 30px;
+}
+
+.value-at-scale .quote-text {
+	max-width: 600px;
+	text-align: left;
+}
+
+.value-at-scale .quote {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0;
+	color: #f0c808;
+}
+
+.value-at-scale .name {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.value-at-scale .title {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.value-at-scale .description {
+	font-size: 16px;
+}
+
+/* Growth Section */
+.growth-section {
+	background-color: #001f3f;
+	color: #fff;
+	text-align: center;
+	padding: 40px 20px;
+	background-color: white;
+}
+
+.growth-section h1 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.stats {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.stat {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.stat:not(:last-child) {
+	border-right: 3px solid #001f3f;
+	padding-right: 20px;
+}
+
+.stat h6 {
+	font-size: 2em;
+	margin: 0;
+}
+
+.stat p {
+	font-size: 1.2rem;
+}
+
+/* Value Cards */
+.creating-value h1 {
+	color: white;
+	font-size: 2em;
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 10px 10px;
+}
+
+.card {
+	width: 250px;
+	height: 390px;
+	border-radius: 20px;
+	overflow: hidden;
+	border: 0.5px solid #fff;
+	position: relative;
+}
+
+.card-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+.card-body {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: -100%;
+	position: absolute;
+	background: #1f3d4738;
+	backdrop-filter: blur(5px);
+	border-radius: 1px;
+	color: #fff;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: 0.3s;
+}
+
+.card:hover .card-body {
+	right: 0;
+}
+
+.card-sub-title {
+	text-transform: capitalize;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.card-btn {
+	color: #1f3d47;
+	background: #8fabba;
+	padding: 10px 20px;
+	width: 120px;
+	border-radius: 5px;
+	text-transform: capitalize;
+	border: none;
+	outline: none;
+	font-weight: 500;
+	cursor: pointer;
+}

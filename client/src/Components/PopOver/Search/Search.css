@@ -1,0 +1,35 @@
+.searchBody{
+    transition: 1s;
+}
+
+/* Starting state of the enter transition */
+.searchBody-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+/* Active state of the enter transition */
+.searchBody-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s, transform 1s;
+}
+
+/* Starting state of the exit transition */
+.searchBody-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Active state of the exit transition */
+.searchBody-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 1s, transform 1s;
+}
+
+/* State after the exit transition has completed */
+.searchBody-exit-done {
+  opacity: 0;
+  transform: translateY(-100%);
+}

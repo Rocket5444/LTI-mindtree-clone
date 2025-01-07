@@ -1,0 +1,20 @@
+.background {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/Images/StockImg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-right: 50px; 
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 5px; 
+    row-gap: 20px; 
+    padding: 20px;
+    border-radius: 10px;
+    width: auto; 
+  }
